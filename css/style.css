@@ -371,3 +371,24 @@ body, html {
     padding-top: 15px;
   }
 }
+@media screen and (max-width:410px){
+  .banner-title{
+    font-size: 2.5em;
+    top: -20px;
+  }
+}
+@media screen and (max-width:380px){
+  .banner-title{
+    position: flex;
+    text-align: center;
+    font-size: 2em;
+    top: -10;
+    left: auto;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .banner .sun {
+    display: none;
+    z-index: -4;
+    position: absolute;
+  }
