@@ -24,11 +24,11 @@ body, html {
 }
 .paviment{
   height: 15.7px;
-  width: 92.1%;
+  width: 100%;
   position: absolute;
   z-index: 10;
   top : 144.5px;
-  right: 0.5%;
+  left: 0;
 }
 .stage-left{
   float: left;
@@ -168,14 +168,15 @@ body, html {
   height: 100px;
   background-color: #363640;
 }
-.footer h1 {
+.footer h4{
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  font-size: 4em;
+  font-size: 1.5em;
   color: white;
-  padding: 0;
+  padding-top: 40px;
   margin: 0;
 }
+
 /* ANIMATIONS */
 
 @keyframes page{
