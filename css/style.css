@@ -156,6 +156,13 @@ body, html {
   height: 70px;
   width: 100%;
 }
+
+#map {
+ height: 400px;
+ width: 83%;
+ z-index: -10 !important;
+}
+
 /* FOOTER */
 .footer-divider {
   width: 100%;
@@ -360,6 +367,11 @@ body, html {
     margin-left: auto;
     margin-right: auto;
     float: none;
+  }
+  .content-info p {
+    padding-left: 5%;
+    line-height: 1.0;
+    text-align: center;
   }
 }
 @media screen and (max-width:500px){
