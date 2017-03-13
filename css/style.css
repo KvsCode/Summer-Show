@@ -157,10 +157,9 @@ body, html {
   width: 100%;
 }
 
-#map {
+.map {
  height: 400px;
  width: 83%;
- z-index: -10 !important;
 }
 
 /* FOOTER */
